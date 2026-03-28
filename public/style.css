@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+/* watermark */
+body::before {
+  content: "MEGHA585"; /* change to your name+ID */
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  font-size: 80px;
+  color: rgba(0,0,0,0.05);
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background: blue;
+  color: white;
+  border: none;
+}
