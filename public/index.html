@@ -13,7 +13,7 @@
 
 <script>
 function googleLogin() {
-  const clientId = "901620366291-8d6c76h7b6se9g5161v49a8td8vf0jmu.apps.googleusercontent.com";
+  const clientId = "google_client_id";
   const redirectUri = "http://localhost:3000/callback";
 
   const url = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=profile email`;
@@ -22,7 +22,7 @@ function googleLogin() {
 }
 
 function githubLogin() {
-  const clientId = "Ov23liwmnwpMmkISZtJp";
+  const clientId = "github_client_id";
   const redirectUri = "http://localhost:3000/callback";
 
   const url = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}`;
